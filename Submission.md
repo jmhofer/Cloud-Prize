@@ -26,25 +26,34 @@ My personal goals while contributing were the following, in order of importance 
 * Help add features, mostly those that I was missing in order to create a simple Swing demo 
   (inspired by [Pong in Elm](http://elm-lang.org/blog/games-in-elm/part-0/Making-Pong.html))
 * Help add schedulers to make concurrency work well
+* Help make RxJava more popular
 * Help improve integration with Scala
 * Help improve Android support
 
 ### Contributions
 
-With the exception of the last goal from above, my contributions achieved these goals, in my honest opinion.
+With the exception of the last goal from above, my contributions achieved these goals, 
+in my honest opinion.
 Of course I wasn't doing all this alone. I have to thank Ben again for a lot of help here.
 
-> **TODO** Point to google group discussion re typesafety here!
+My first contribution was starting a 
+[discussion about typesafety](https://groups.google.com/forum/#!topic/rxjava/bVZoKSsb1-o) 
+in the RxJava Google Group.
 
-In my own view, the main contribution was the large rework of the codebase to generalize the types to become covariant (observables, function return types and a few small other types) or contravariant (observers and function parameter types) where possible. This is an important cornerstone for improving Scala integration, too.
+In my own view, my main contribution was the large rework of the codebase to generalize the types to become covariant (observables, function return types and a few small other types) or contravariant (observers and function parameter types) where possible. This is an important cornerstone for improving Scala integration, too.
 
-I haven't contributed code to Scala integration because this was taken up by the people from Typesafe themselves. However, I keep contributing to the respective discussions.
+I haven't contributed code to the Scala integration because this was taken up by the people from 
+[Typesafe](http://typesafe.com) themselves. However, I keep contributing to the 
+[respective discussions](https://github.com/Netflix/RxJava/issues/336).
 
 I haven't gotten started yet with Android support, but thankfully in the meantime, the people from SoundCloud have.
 
+I also recently held a talk about RxJava at [Herbstcampus 2013](http://herbstcampus.de/hc13/program/sessions.html#55) (in Nuremberg). The slides and sample code for this talk can be found at my 
+[Github repo "rxjava-samples"](https://github.com/jmhofer/rxjava-samples).
+
 So, that's all there is to this submission: A few contributions to improve RxJava.
 
-## Provide Links to Github Repo's for your Submission
+## Provide Links to Github Repos for your Submission
 
 * [RxJava](https://github.com/jmhofer/RxJava) - my RxJava fork
 * [rxjava-samples](https://github.com/jmhofer/rxjava-samples) - a simple sample application I used for a talk on RxJava
