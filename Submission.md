@@ -2,6 +2,49 @@ Edit this page to describe your Submission.
 
 ## Which Categories Best Fit Your Submission and Why?
 
+In order of what I think fits my contributions best (best fit first). 
+
+This will be a bit murky as the categories are not 
+defined in much detail anywhere. My contributions are to an API and its implementation, so a lot
+of these categories overlap, imho (API usability, API portability and API quality are quite strongly
+correlated, if you ask me).
+
+So take your pick below...
+
+* Best new feature
+
+  I added lots of new features to RxJava, mostly in the form of many **new operations**, but also
+  by improving on **schedulers** and **generics**.
+
+* Best contribution to code quality
+
+  I cleaned up a lot of warnings in the RxJava project. I helped make it a lot more **typesafe**.
+  I added **co-/contravariance** which could be considered an API quality improvement. I wrote a 
+  lot of **tests against RxJava features**. I created and implemented an RxJava **[scheduler 
+  specifically for testing](https://github.com/Netflix/RxJava/blob/master/rxjava-core/src/main/java/rx/concurrency/TestScheduler.java)** 
+  behavior of scheduled actions.
+
+* Best portability enhancement
+
+  By contributing to making RxJava more **typesafe** and more **generic**, and by contributing 
+  to the discussions about Scala integration, I helped make RxJava more portable to other 
+  (typesafe) programming languages like Java, Scala and Kotlin.
+  
+  Also, the whole RxJava project foundation is about **porting Rx.NET functionality** over to 
+  the JVM world.
+
+* Best usability enhancement
+
+  As RxJava is an API, this is about API usability. I think I contributed a lot to API usability
+  by making the API more **typesafe** and introducing **co- and contravariance** everywhere.
+
+* Best new monkey
+
+  Am I a new monkey? - Depends on what you count as a "new monkey". If you count "new to 
+  contributing to Netflix Open Source", then I am. If you count "new in the industry, fresh from
+  college", then forget this category for me. - I lost about ten years of my life doing ugly closed 
+  Enterprise Java, sadly.
+
 ## Describe your Submission
 
 ### Motivation
@@ -34,24 +77,34 @@ My personal goals while contributing were the following, in order of importance 
 
 With the exception of the last goal from above, my contributions achieved these goals, 
 in my honest opinion.
-Of course I wasn't doing all this alone. I have to thank Ben again for a lot of help here.
+Of course I wasn't doing all this alone. I have to thank Ben and many others again for a lot 
+of help here.
 
 My first contribution was starting a 
-[discussion about typesafety](https://groups.google.com/forum/#!topic/rxjava/bVZoKSsb1-o) 
-in the RxJava Google Group.
+**[discussion about typesafety](https://groups.google.com/forum/#!topic/rxjava/bVZoKSsb1-o)** 
+in the RxJava Google Group. This developed into a large reworking of the RxJava core to make
+it a lot more typesafe. I haven't contributed much to the reworking itself as other people were
+way better qualified to do this; however, I got the ball rolling here.
 
-In my own view, my main contribution was the large rework of the codebase to generalize the types to become covariant (observables, function return types and a few small other types) or contravariant (observers and function parameter types) where possible. This is an important cornerstone for improving Scala integration, too.
+Then, I added a lot of features to RxJava in the form of **implementations of Rx operators**, helped
+with the **Rx schedulers** and added a module for **Swing integration**.
+
+In my own view, my **main contribution** was the large rework of the codebase to generalize the types to become **covariant** (observables, function return types and a few small other types) or
+**contravariant** (observers and function parameter types) where possible. This is an important
+cornerstone for improving **Scala integration**, too.
 
 I haven't contributed code to the Scala integration because this was taken up by the people from 
 [Typesafe](http://typesafe.com) themselves. However, I keep contributing to the 
-[respective discussions](https://github.com/Netflix/RxJava/issues/336).
+**[respective discussions](https://github.com/Netflix/RxJava/issues/336)**.
 
-I haven't gotten started yet with Android support, but thankfully in the meantime, the people from SoundCloud have.
+I haven't gotten started yet with Android support, but thankfully, in the meantime, the people from SoundCloud have.
 
-I also recently held a talk about RxJava at [Herbstcampus 2013](http://herbstcampus.de/hc13/program/sessions.html#55) (in Nuremberg). The slides and sample code for this talk can be found at my 
+I also recently **held a talk** about RxJava at [Herbstcampus 2013](http://herbstcampus.de/hc13/program/sessions.html#55) (in Nuremberg). 
+The (German) **slides and sample code** for this talk can be found at my 
 [Github repo "rxjava-samples"](https://github.com/jmhofer/rxjava-samples).
 
-So, that's all there is to this submission: A few contributions to improve RxJava.
+So, that's all there is to this submission: A few contributions to improve RxJava. However, I'm very
+proud that [Erik Meijer likes them](https://twitter.com/headinthebox/status/374065370560069632).
 
 ## Provide Links to Github Repos for your Submission
 

@@ -64,6 +64,15 @@ Update this page to describe and link to pull requests made against other Netfli
   Java and Scala). This pull request really was a lot of work. Unfortunately, co- and contravariance 
   in Java is difficult and verbose.
 
+* [RxJava - Implementing the `count`, `sum` and `average` operators](https://github.com/Netflix/RxJava/pull/354)
+
+  This pull request implements a few low-hanging fruit (since `reduce` is already in place and
+  can be used for these operators) in order to get the number of open issues in RxJava a bit lower.
+  
+* [RxJava - Implementing the `skipWhile` and `skipWhileWithIndex` operators](https://github.com/Netflix/RxJava/pull/355)
+
+  This pull request addresses two more operators that are quite important for RxJava users imho.
+ 
 ## Quality Related Pull Requests
 
 * [RxJava - Implemented the `combineLatest` operator](https://github.com/Netflix/RxJava/pull/207)
