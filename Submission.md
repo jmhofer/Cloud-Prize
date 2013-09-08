@@ -13,7 +13,7 @@ So take your pick below...
 
 * Best new feature
 
-  I added lots of new features to RxJava, mostly in the form of many **new operations**, but also
+  I added lots of new features to RxJava, mostly in the form of many **new operators**, but also
   by improving on **schedulers** and **generics**.
 
 * Best contribution to code quality
@@ -81,6 +81,20 @@ way better qualified to do this; however, I got the ball rolling here.
 
 Then, I added a lot of features to RxJava in the form of **implementations of Rx operators**, helped
 with the **Rx schedulers** and added a module for **Swing integration**.
+
+All in all, I added the following operators to RxJava (up to now):
+
+* `average`
+* `combineLatest`
+* `count`
+* `first`
+* `firstOrDefault`
+* `interval`
+* `sample`
+* `skipWhile`
+* `skipWhileWithIndex`
+* `sum`
+* `timestamp`
 
 In my own view, my **main contribution** was the large rework of the codebase to generalize the types to become **covariant** (observables, function return types and a few small other types) or
 **contravariant** (observers and function parameter types) where possible. This is an important

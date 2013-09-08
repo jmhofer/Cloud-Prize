@@ -73,6 +73,10 @@ Update this page to describe and link to pull requests made against other Netfli
 
   This pull request addresses two more operators that are quite important for RxJava users imho.
  
+* [RxJava - Implementing the `first` and `firstOrDefault` operators](https://github.com/Netflix/RxJava/pull/357)
+
+  This pull request adds two more operators to RxJava.
+  
 ## Quality Related Pull Requests
 
 * [RxJava - Implemented the `combineLatest` operator](https://github.com/Netflix/RxJava/pull/207)
@@ -111,6 +115,10 @@ Update this page to describe and link to pull requests made against other Netfli
 * [RxJava - A little Swing module wrap-up](https://github.com/Netflix/RxJava/pull/350)
 
   This pull request consists of a few little things that improve the Swing module.
+
+* [RxJava - Adding the `interval` operator to `Observable`](https://github.com/Netflix/RxJava/pull/356)
+
+  This fixed an open issue of the `interval` operator.
   
 ## Performance Related Pull Requests
 
