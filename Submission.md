@@ -38,13 +38,6 @@ So take your pick below...
   As RxJava is an API, this is about API usability. I think I contributed a lot to API usability
   by making the API more **typesafe** and introducing **co- and contravariance** everywhere.
 
-* Best new monkey
-
-  Am I a new monkey? - Depends on what you count as a "new monkey". If you count "new to 
-  contributing to Netflix Open Source", then I am. If you count "new in the industry, fresh from
-  college", then forget this category for me. - I lost about ten years of my life doing ugly closed 
-  Enterprise Java, sadly.
-
 ## Describe your Submission
 
 ### Motivation
