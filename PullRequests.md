@@ -81,6 +81,11 @@ Update this page to describe and link to pull requests made against other Netfli
 
   This pull request adds the two variants of the `distinctUntilChanged``operator to RxJava.
 
+* [RxJava - Implementing the `distinct` operator](https://github.com/Netflix/RxJava/pull/375)
+
+  This pull request adds the two variants of the `distinct` operator
+  to RxJava.
+  
 ## Quality Related Pull Requests
 
 * [RxJava - Implemented the `combineLatest` operator](https://github.com/Netflix/RxJava/pull/207)

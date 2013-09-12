@@ -87,6 +87,7 @@ All in all, I added the following operators to RxJava (up to now):
 * `average`
 * `combineLatest`
 * `count`
+* `distinct`
 * `distinctUntilChanged`
 * `first`
 * `firstOrDefault`
