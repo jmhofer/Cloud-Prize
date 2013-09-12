@@ -46,7 +46,7 @@ Update this page to describe and link to pull requests made against other Netfli
   establishing the first of currently two "contrib" subprojects of RxJava (the other being the
   Android subproject). 
   
-* [RxJava - Adding a few basic observables to the Swing modul](https://github.com/Netflix/RxJava/pull/262)
+* [RxJava - Adding a few basic observables to the Swing module](https://github.com/Netflix/RxJava/pull/262)
 
   This adds a few basic observables to the Swing module (keyboard and mouse events).  
 
@@ -77,6 +77,10 @@ Update this page to describe and link to pull requests made against other Netfli
 
   This pull request adds two more operators to RxJava.
   
+* [RxJava - Implementing the `distinctUntilChanged` operator](https://github.com/Netflix/RxJava/pull/374)
+
+  This pull request adds the two variants of the `distinctUntilChanged``operator to RxJava.
+
 ## Quality Related Pull Requests
 
 * [RxJava - Implemented the `combineLatest` operator](https://github.com/Netflix/RxJava/pull/207)
@@ -120,6 +124,11 @@ Update this page to describe and link to pull requests made against other Netfli
 
   This fixed an open issue of the `interval` operator.
   
+* [RxJava - Fixing warnings, javadoc and one method call](https://github.com/Netflix/RxJava/pull/373)
+
+  This fixed one missing parameter in a method call, a few warnings
+  and a lot of javadoc warnings.
+
 ## Performance Related Pull Requests
 
 * [RxJava - Improve synchronization of `combineLatest`](https://github.com/Netflix/RxJava/pull/267)
