@@ -91,6 +91,10 @@ Update this page to describe and link to pull requests made against other Netfli
   This pull request adds two more variants of the two `distinct`
   operators to RxJava.
   
+* [RxJava - Implemented `mapWithIndex` operator](https://github.com/Netflix/RxJava/pull/381)
+
+  This pull request is a small generalization of the `map` operator.
+  
 ## Quality Related Pull Requests
 
 * [RxJava - Implemented the `combineLatest` operator](https://github.com/Netflix/RxJava/pull/207)
