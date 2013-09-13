@@ -68,9 +68,9 @@ My personal goals while contributing were the following, in order of importance 
 
 ### Contributions
 
-With the exception of the last goal from above, my contributions achieved these goals, 
+With the exception of the last goal from above, my contributions helped achieve these goals, 
 in my honest opinion.
-Of course I wasn't doing all this alone. I have to thank Ben and many others again for a lot 
+Of course I wasn't doing all this alone. I have to thank Ben and many others for a lot 
 of help here.
 
 My first contribution was starting a 
@@ -117,5 +117,6 @@ proud that [Erik Meijer likes them](https://twitter.com/headinthebox/status/3740
 
 ## Provide Links to Github Repos for your Submission
 
-* [RxJava](https://github.com/jmhofer/RxJava) - my RxJava fork
-* [rxjava-samples](https://github.com/jmhofer/rxjava-samples) - a simple sample application I used for a talk on RxJava
+* [Netflix/RxJava](https://github.com/Netflix/RxJava) - the Netflix RxJava master repo
+* [jmhofer/RxJava](https://github.com/jmhofer/RxJava) - my RxJava fork
+* [jmhofer/rxjava-samples](https://github.com/jmhofer/rxjava-samples) - a simple sample application I used for a talk on RxJava

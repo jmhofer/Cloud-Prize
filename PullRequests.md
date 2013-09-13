@@ -134,6 +134,12 @@ Update this page to describe and link to pull requests made against other Netfli
   This fixed one missing parameter in a method call, a few warnings
   and a lot of javadoc warnings.
 
+* [RxJava - Fixing `interval` for multiple subscriptions](https://github.com/Netflix/RxJava/pull/379)
+
+  The `interval` operator didn't work correctly for multiple
+  subscriptions, so I wrote tests agains these cases here and 
+  fixed it.
+
 ## Performance Related Pull Requests
 
 * [RxJava - Improve synchronization of `combineLatest`](https://github.com/Netflix/RxJava/pull/267)
