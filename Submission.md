@@ -92,6 +92,7 @@ All in all, I added the following operators to RxJava (up to now):
 * `first`
 * `firstOrDefault`
 * `interval`
+* `mapWithIndex`
 * `sample`
 * `skipWhile`
 * `skipWhileWithIndex`
