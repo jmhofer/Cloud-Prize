@@ -95,6 +95,10 @@ Update this page to describe and link to pull requests made against other Netfli
 
   This pull request is a small generalization of the `map` operator.
   
+* [RxJava - Implemented `delay` operator](https://github.com/Netflix/RxJava/pull/384)
+
+  This pull request implements the four variants of the `delay`operator.
+  
 ## Quality Related Pull Requests
 
 * [RxJava - Implemented the `combineLatest` operator](https://github.com/Netflix/RxJava/pull/207)
